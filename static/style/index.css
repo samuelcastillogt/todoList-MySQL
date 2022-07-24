@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.task{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: darkcyan;
+    color: white;
+    margin: 5px;
+    border-radius: 6px;
+    max-width: 300px;
+    min-width: 300px;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#formbutton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: green;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 3em;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+#fecha{
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.taskform{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: darkcyan;
+    padding: 20px;
+    border-radius: 6px;
+    color: white;
+}
+.blur{
+    filter: blur(10px);
+}
+.finished{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    text-decoration: line-through;
+    padding: 5px;
+    color: white;
+    margin: 5px;
+    border-radius: 6px;
+    max-width: 300px;
+    min-width: 300px;
+    cursor: pointer;
+}
+.alerta{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 700;
+}
